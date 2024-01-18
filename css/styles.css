@@ -1,0 +1,131 @@
+body {
+    background-color: #ffe6f2;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff66b2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.calculate {
+    display: flex;
+    justify-content: space-around; 
+    width: 100%;
+}
+
+.main-container-area,
+.main-container-circum {
+    background-color: #ffd9e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    color: black;
+    font-weight: 500;
+    background-color: #ff99cc;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: transform 0.2s ease;
+}
+
+button img {
+    color: white;
+    width: 15px;
+    height: 15px;
+}
+
+button:hover {
+    background-color: #fb6f92;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+button:last-child {
+    margin-right: 0; /* Menghilangkan margin pada tombol terakhir agar tidak ada spasi di sebelah kanan */
+}
+
+
+
+
+
+/* Add this media query for mobile responsiveness */
+@media screen and (max-width: 600px) {
+    .calculate {
+        flex-direction: column; /* Change flex direction to column */
+    }
+
+    .main-container-circum,
+    .main-container-area {
+        width: 100%; /* Set width to 100% for full width on mobile */
+        margin-bottom: 15px; /* Add some margin between the two sections */
+    }
+
+    .main-container-area,
+    .main-container-circum {
+        align-items: center; /* Center align items */
+    }
+
+    header {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #ffd9e6 light pink */ 
+/* #ff99cc pink button  */
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Square BitCalc</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Square BitCalc</h1>
+            <h2>Welcome to BitCalc (Bitha's Calculator)</h2>
+            <p>Kalkulator matematika untuk menghitung luas dan keliling persegi</p>
+    </header>
+
+    <main>
+        <section class="calculate">
+            <div class="main-container-area">
+                <label>Luas Persegi</label>
+                <input type="text" placeholder="Masukkan panjang sisi">
+                <button onclick="calculateArea()">Hitung Luas</button>
+                <button onclick="clearResults()"><img src="img/trash-2.svg"/></button>
+                <p class="result"></p>
+            </div>
+
+            <div class="main-container-circum">
+                <label>Keliling Persegi</label>
+                <input type="text" placeholder="Masukkan panjang sisi">
+                <button onclick="calculatePerimeter()">Hitung Keliling</button>
+                <button onclick="clearResults()"><img src="img/trash-2.svg"/></button>
+                <p class="result"></p>
+            </div>
+        </section>   
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

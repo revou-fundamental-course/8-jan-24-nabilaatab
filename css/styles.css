@@ -1,12 +1,14 @@
 body {
-    background-color: #ffe6f2;
+    /* background-color: #ffe6f2; */
+    background-color: #F8FAE5;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ff66b2;
+    /* background-color: #ff66b2; pink */
+    background-color: #43766C;
     color: white;
     padding: 20px;
     text-align: center;
@@ -33,10 +35,13 @@ main {
 
 .main-container-area,
 .main-container-circum {
-    background-color: #ffd9e6;
+    /* background-color: #ffd9e6; */
+    /* background-color: #FAEED1; cream */
+    background-color: #FBF9F1;
+    color: black;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
@@ -55,9 +60,12 @@ input {
 }
 
 button {
+    /* color: black; */
     color: black;
     font-weight: 500;
-    background-color: #ff99cc;
+    /* background-color: #ff99cc; */
+    /* background-color: #DED0B6; brown */
+    background-color: #DBE7C9;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -73,7 +81,8 @@ button img {
 }
 
 button:hover {
-    background-color: #fb6f92;
+    background-color: #43766C;
+    color: white;
 }
 
 button:active {
@@ -98,6 +107,7 @@ button:last-child {
     .main-container-area {
         width: 100%; /* Set width to 100% for full width on mobile */
         margin-bottom: 15px; /* Add some margin between the two sections */
+
     }
 
     .main-container-area,
@@ -106,7 +116,7 @@ button:last-child {
     }
 
     header {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         width: 100%;
     }
 }
